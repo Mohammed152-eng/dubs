@@ -1452,8 +1452,97 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="elementor-element elementor-element-2e8cb255 elementor-view-default elementor-widget elementor-widget-icon" data-id="2e8cb255" data-element_type="widget" data-e-type="widget" data-widget_type="icon.default">
                 <div class="elementor-widget-container">
                     <div class="elementor-icon-wrapper">
-                        <div class="elementor-icon">
-                            <i aria-hidden="true" class="lnr lnr-arrow-down"></i> </div>
+                        <div class="elementor-icon" style="color: #ef7e6d !important; border-color: transparent !important; background: transparent !important; display: inline-flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: auto; outline: none; box-shadow: none; font-size: inherit; line-height: inherit; padding: 0;">
+                            <div style="display: flex; flex-direction: column; align-items: center; gap: 14px; cursor: pointer; position: relative;">
+                                <!-- Glowing background aura -->
+                                <div style="position: absolute; width: 90px; height: 120px; background: radial-gradient(circle, rgba(239, 126, 109, 0.15) 0%, rgba(239, 126, 109, 0) 70%); top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none; animation: cosmicAura 4s ease-in-out infinite;"></div>
+                                
+                                <!-- Sleek Futuristic Capsule -->
+                                <div style="width: 38px; height: 64px; border: 3px solid #ef7e6d; border-radius: 100px; display: flex; justify-content: center; padding-top: 6px; box-sizing: border-box; position: relative; background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(4px); box-shadow: 0 0 20px rgba(239, 126, 109, 0.15), inset 0 0 10px rgba(239, 126, 109, 0.1);">
+                                    <!-- Elastic light runner (stretched liquid scroll indicator) -->
+                                    <div style="width: 6px; height: 16px; background: linear-gradient(180deg, #ef7e6d, #fff); border-radius: 100px; box-shadow: 0 0 8px #ef7e6d; animation: elasticRunner 2s cubic-bezier(0.25, 1, 0.5, 1) infinite;"></div>
+                                </div>
+                                
+                                <!-- Dynamic Cascading Dual Chevrons -->
+                                <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 32px; position: relative; margin-top: -4px;">
+                                    <svg class="chevron-one" width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: 0; animation: chevronCascadeOne 2s ease-in-out infinite;">
+                                        <path d="M4 3L12 11L20 3" stroke="#ef7e6d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="filter: drop-shadow(0px 0px 4px rgba(239, 126, 109, 0.5));"/>
+                                    </svg>
+                                    <svg class="chevron-two" width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: 10px; animation: chevronCascadeTwo 2s ease-in-out infinite;">
+                                        <path d="M4 3L12 11L20 3" stroke="#ef7e6d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="filter: drop-shadow(0px 0px 4px rgba(239, 126, 109, 0.3));"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <style>
+                                @keyframes cosmicAura {
+                                    0%, 100% {
+                                        transform: translate(-50%, -50%) scale(0.9);
+                                        opacity: 0.6;
+                                    }
+                                    50% {
+                                        transform: translate(-50%, -50%) scale(1.15);
+                                        opacity: 1;
+                                    }
+                                }
+                                @keyframes elasticRunner {
+                                    0% {
+                                        transform: translateY(0) scaleY(1);
+                                        opacity: 0;
+                                    }
+                                    15% {
+                                        transform: translateY(2px) scaleY(1.4);
+                                        opacity: 1;
+                                    }
+                                    60% {
+                                        transform: translateY(26px) scaleY(0.75);
+                                        opacity: 0.8;
+                                    }
+                                    85% {
+                                        transform: translateY(30px) scaleY(0.4);
+                                        opacity: 0;
+                                    }
+                                    100% {
+                                        transform: translateY(0) scaleY(1);
+                                        opacity: 0;
+                                    }
+                                }
+                                @keyframes chevronCascadeOne {
+                                    0% {
+                                        transform: translateY(-8px);
+                                        opacity: 0;
+                                    }
+                                    30% {
+                                        transform: translateY(0px);
+                                        opacity: 1;
+                                    }
+                                    80% {
+                                        transform: translateY(12px);
+                                        opacity: 0;
+                                    }
+                                    100% {
+                                        transform: translateY(12px);
+                                        opacity: 0;
+                                    }
+                                }
+                                @keyframes chevronCascadeTwo {
+                                    0% {
+                                        transform: translateY(-4px);
+                                        opacity: 0;
+                                    }
+                                    25% {
+                                        opacity: 0;
+                                    }
+                                    55% {
+                                        transform: translateY(4px);
+                                        opacity: 1;
+                                    }
+                                    100% {
+                                        transform: translateY(16px);
+                                        opacity: 0;
+                                    }
+                                }
+                            </style>
+                        </div>
                     </div>
                 </div>
             </div>
