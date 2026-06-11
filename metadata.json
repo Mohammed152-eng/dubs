@@ -1,0 +1,6 @@
+{
+  "name": "Cloud9 Agency Live Demo",
+  "description": "An import of the Mohammed152-eng/bod repository, rendering the Cloud9 Agency Live Demo static site.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
